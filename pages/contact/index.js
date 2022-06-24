@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import { MainLayout } from '../components/layouts/MainLayout';
+import { MainLayout } from '../../components/layouts/MainLayout';
 
-export default function HomePage() {
+export default function ContactPage() {
   return (
     <MainLayout>
-      <h1>Home Page</h1>
+      <h1>Contact Page</h1>
       <h1 className="title">
-        Go to <Link href="/about">About</Link>
+        Go to <Link href="/">Home</Link>
       </h1>
 
       <p className="description">
@@ -14,5 +14,9 @@ export default function HomePage() {
         <code className="code">pages/index.js</code>
       </p>
     </MainLayout>
+
+
+    
+
   )
 }
